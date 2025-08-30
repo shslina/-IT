@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>매니아팜:IT갤 - 중고 IT기기 거래 플랫폼</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>매니아팜:IT갤</h1>
+                <span class="subtitle">중고 IT기기 거래 플랫폼</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">홈</a></li>
+                    <li><a href="#">인기상품</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <div class="user-info">
+                    <span class="username">shslina</span>
+                    <span class="vip-badge">[VIP]</span>
+                    <button class="btn-logout">(로그아웃)</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 메인 검색 섹션 -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="상품을 검색하세요" value="삼성 비정격 충전기 45w 2019">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="search-suggestions">
+                    <span class="suggestion-tag" data-search="2025 비정격 충전기 60w">2025 비정격 충전기 60w</span>
+                    <span class="suggestion-tag" data-search="2017 비정격 충전기 25w">2017 비정격 충전기 25w</span>
+                </div>
+                <div class="search-filters">
+                    <div class="filter-group">
+                        <label>가격 범위</label>
+                        <select class="filter-select">
+                            <option value="">전체</option>
+                            <option value="0-50">50만원 이하</option>
+                            <option value="50-100">50-100만원</option>
+                            <option value="100-200">100-200만원</option>
+                            <option value="200+">200만원 이상</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>상품 상태</label>
+                        <select class="filter-select">
+                            <option value="">전체</option>
+                            <option value="new">새상품</option>
+                            <option value="like-new">거의새상품</option>
+                            <option value="good">상</option>
+                            <option value="fair">중</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>지역</label>
+                        <select class="filter-select">
+                            <option value="">전체</option>
+                            <option value="seoul">서울</option>
+                            <option value="gyeonggi">경기</option>
+                            <option value="incheon">인천</option>
+                            <option value="other">기타</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 상품 섹션 -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>검색 결과</h3>
+                <p>"삼성 비정격 충전기 45w 2019"에 대한 검색 결과입니다.</p>
+                <div class="search-result-count">
+                    <span class="result-number">1</span>건의 상품을 찾았습니다
+                </div>
+            </div>
+            
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image.png" alt="삼성 비정격 충전기 45W">
+                        <div class="product-badge">인증상품</div>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-title">2019년도 삼성 비정격 충전기 45W</h4>
+                        <p class="product-description">
+                            플레티넘 한정 구매 삼성 비정격 충전기, 소장가치 높습니다.
+                        </p>
+                        <div class="product-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> 서울시 강남구</span>
+                            <span class="condition"><i class="fas fa-star"></i> 상태: A급</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">97만원</span>
+                            <span class="original-price">최근 거래가: 153만원</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-chat">결제하기</button>
+                            <button class="btn-heart"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-highlight">
+                    <div class="highlight-content">
+                        <i class="fas fa-star"></i>
+                        <h4>유일한 상품</h4>
+                        <p>이 검색어에 대한 유일한 상품입니다</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>매니아팜:IT갤</h4>
+                    <p>믿을 수 있는 중고 IT기기 거래 플랫폼</p>
+                </div>
+                <div class="footer-section">
+                    <h4>서비스</h4>
+                    <ul>
+                        <li><a href="#">상품 등록</a></li>
+                        <li><a href="#">구매 가이드</a></li>
+                        <li><a href="#">판매 가이드</a></li>
+                        <li><a href="#">안전거래</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>고객지원</h4>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주묻는질문</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>연락처</h4>
+                    <p>고객센터: 1588-1234</p>
+                    <p>이메일: support@maniapalm.com</p>
+                    <p>운영시간: 평일 09:00-18:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 매니아팜:IT갤. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
